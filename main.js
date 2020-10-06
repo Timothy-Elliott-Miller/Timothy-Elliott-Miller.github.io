@@ -5,5 +5,6 @@ var count = 0;
 button.onclick = function() {button1Clicked()};
 
 function button1Clicked(){
+  console.log("button1 clicked")
   display.text = count;
 }
